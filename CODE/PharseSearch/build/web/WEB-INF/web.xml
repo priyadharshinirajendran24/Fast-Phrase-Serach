@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>UploadImage</servlet-name>
+        <servlet-class>UploadImage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UploadImage123</servlet-name>
+        <servlet-class>UploadImage123</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DataOwnerReg</servlet-name>
+        <servlet-class>DataOwnerReg</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DataUserReg</servlet-name>
+        <servlet-class>DataUserReg</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>UploadServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FileUpload</servlet-name>
+        <servlet-class>FileUpload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadImage</servlet-name>
+        <url-pattern>/UploadImage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UploadImage123</servlet-name>
+        <url-pattern>/UploadImage123</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DataOwnerReg</servlet-name>
+        <url-pattern>/DataOwnerReg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DataUserReg</servlet-name>
+        <url-pattern>/DataUserReg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/UploadServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FileUpload</servlet-name>
+        <url-pattern>/FileUpload</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+</web-app>
